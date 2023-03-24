@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Uses Node.js 16
-        uses: actions/setup-node@v16
+        uses: actions/setup-node@v2
         with:
           node_version: '16'
       - run: npm install
